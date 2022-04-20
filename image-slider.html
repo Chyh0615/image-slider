@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <script src="https://kit.fontawesome.com/5a27d45b66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="image-slider.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div onclick="changefunction('previous')">
+            <i class="fa-solid fa-angle-left fa-2xl"></i>
+        </div>
+        <div class="pics">
+            <img src="https://cdn.pixabay.com/photo/2020/07/11/08/22/hydrangeas-5393155_1280.jpg" class="active">
+            <img src="https://cdn.pixabay.com/photo/2014/05/03/16/43/pansies-337140_1280.jpg">
+            <img src="https://cdn.pixabay.com/photo/2020/06/06/15/48/scent-of-jasmine-5267072_1280.jpg">
+            <img src="https://cdn.pixabay.com/photo/2019/06/19/11/03/flowers-4284677_1280.jpg">
+            <img src="https://cdn.pixabay.com/photo/2021/07/21/08/33/lavenders-6482579_1280.jpg">
+            <img src="https://cdn.pixabay.com/photo/2016/03/07/18/13/amaryllis-1242713_1280.jpg">
+        </div>
+        <div onclick="changefunction('next')">
+            <i class="fa-solid fa-angle-right fa-2xl"></i>
+        </div>
+    </div>
+    
+    <div class="infro">
+        <p>[繡球花] picture-source: https://pixabay.com/zh/photos/hydrangeas-hydrangea-flowers-shrub-5393155/</p>
+        <p>[紫羅蘭] picture-source: https://pixabay.com/zh/photos/pansies-flowers-purple-337140/</p>
+        <p>[茉莉花] picture-source: https://pixabay.com/zh/photos/scent-of-jasmine-jasmin-5267072/</p>
+        <p>[紫藤花] picture-source: https://pixabay.com/zh/photos/flower-path-wisteria-nature-spring-4284677/</p>
+        <p>[薰衣草] picture-source: https://pixabay.com/zh/photos/lavenders-flowers-lavender-field-6482579/</p>
+        <p>[曼珠沙華(彼岸花)] picture-source: https://pixabay.com/zh/photos/amaryllis-cluster-amaryllis-1242713/</p>
+    </div>
+
+    <script src="image-slider.js"></script>
+</body>
+</html>
